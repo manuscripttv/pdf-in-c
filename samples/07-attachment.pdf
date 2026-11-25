@@ -1,0 +1,50 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R
+   /Names << /EmbeddedFiles << /Names [(hello.txt) 6 0 R] >> >> >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842]
+   /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Length 130 >>
+stream
+BT /F1 14 Tf 14 TL 72 760 Td
+(This page looks normal, but a file rides along.) '
+(Look for a paperclip or attachments panel.) '
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Filespec /F (hello.txt) /UF (hello.txt) /EF << /F 7 0 R >> >>
+endobj
+7 0 obj
+<< /Type /EmbeddedFile /Length 71 >>
+stream
+Hello from inside the PDF.
+I am a plain text file, stored in object 7.
+
+endstream
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000000122 00000 n 
+0000000179 00000 n 
+0000000308 00000 n 
+0000000378 00000 n 
+0000000559 00000 n 
+0000000646 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+787
+%%EOF

@@ -1,0 +1,57 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R 4 0 R] /Count 2
+   /MediaBox [0 0 595 842] /Resources << /Font << /F1 5 0 R >> >> >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /Contents 6 0 R >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /Contents 7 0 R >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+6 0 obj
+<< /Length 179 >>
+stream
+BT /F1 28 Tf 72 760 Td (Page one) Tj ET
+BT /F1 12 Tf 14 TL 72 730 Td
+(MediaBox and Resources live on the Pages node,) '
+(so both pages inherit them.) '
+ET
+2 w 72 690 m 523 690 l S
+endstream
+endobj
+7 0 obj
+<< /Length 183 >>
+stream
+BT /F1 28 Tf 72 760 Td (Page two) Tj ET
+q 1 0 0 rg 72 500 200 150 re f Q
+q 0 0 1 RG 4 w 323 500 200 150 re S Q
+BT /F1 12 Tf 72 470 Td (A filled red box and a blue outlined box.) Tj ET
+endstream
+endobj
+8 0 obj
+<< /Title (Two pages by hand) /Producer (a text editor)
+   /CreationDate (D:20261124120000Z) >>
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000187 00000 n 
+0000000250 00000 n 
+0000000313 00000 n 
+0000000383 00000 n 
+0000000613 00000 n 
+0000000847 00000 n 
+trailer
+<< /Size 9 /Root 1 0 R /Info 8 0 R >>
+startxref
+958
+%%EOF
