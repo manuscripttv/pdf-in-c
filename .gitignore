@@ -1,0 +1,11 @@
+# Vim swap files
+*.swp
+
+# Ctags
+.tags
+
+# Compiled binaries
+hello
+
+# Output directory
+op/
