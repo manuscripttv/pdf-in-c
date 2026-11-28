@@ -1,19 +1,26 @@
 # pdf-in-c
 
-## Lets create a PDF file in C
+## lets create a pdf file in c
 
-### (1) hello.pdf
-
-#### notes
+### general notes
 
 - pdf readers start at the end of the document
 - build the trailer
 - build the header
-- object hierarchy: > (obj 1) catalog 
-                    > (obj 2) page tree 
-                    > (obj 3) page 
-                    > (obj 4) font 
-                    > (obj 5) content stream 
+- build body objects
+- update xref table
+
+#### object hierarchy: 
+
+```text
+- (obj 1) catalog 
+- (obj 2) page tree 
+- (obj 3) page 
+- (obj 4) font 
+- (obj 5) content stream 
+```
+
+### (1) hello.pdf
 
 #### general structure
 
