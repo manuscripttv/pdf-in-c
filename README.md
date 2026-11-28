@@ -4,6 +4,8 @@
 
 ### general notes
 
+PDF specifications: [PDF 32000-1:2008 Spec](https://opensource.adobe.com/dc-acrobat-sdk-docs/pdfstandards/PDF32000_2008.pdf)
+
 - pdf readers start at the end of the document
 - build the trailer
 - build the header
