@@ -1,20 +1,24 @@
 # pdf-in-c
 
-## Lets create PDF file in C
+## Lets create a PDF file in C
 
-### hello.pdf
+### (1) hello.pdf
+
+#### notes
 
 - pdf readers start at the end of the document
-- lets open a file and write as we create the pdf 
-- we built the trailer
-- now lets build the header
-- lets add the first entry in the xref table
-- file structure: 
-    - obj 1             > obj 2     > obj 3 > obj 4 > obj 5
-    - document catalog  > page tree > page  > font  > content stream
-- general structure of this pdf file
+- build the trailer
+- build the header
+- file hierarchy:   > (obj 1) catalog 
+                    > (obj 2) page tree 
+                    > (obj 3) page 
+                    > (obj 4) font 
+                    > (obj 5) content stream 
 
-%PDF1.4
+#### general structure
+
+```text
+%PDF-1.4
 1 0 obj Catalog
 2 0 obj Pages
 3 0 obj Page
@@ -34,4 +38,4 @@ trailer
 startxref
 byte_offset_of_xref_start
 %%EOF
-
+```
