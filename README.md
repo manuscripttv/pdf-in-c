@@ -12,15 +12,25 @@
 - file structure: 
     - obj 1             > obj 2     > obj 3 > obj 4 > obj 5
     - document catalog  > page tree > page  > font  > content stream
-
 - general structure of this pdf file
 
+%PDF1.4
+1 0 obj Catalog
+2 0 obj Pages
+3 0 obj Page
+4 0 obj Font
+5 0 obj Stream
 xref
 0 N+1                
-0000000000 65535 f                  // <- 1st entry. starts at byte 0. hence n+1
+0000000000 65535 f  // <- 1st entry. starts at byte 0. hence n+1
+0000000xxx xxxxx n
+0000000xxx xxxxx n
+0000000xxx xxxxx n
+0000000xxx xxxxx n
+0000000xxx xxxxx n
 
 trailer
-<< /Size N /Root 1 0 R >>
+<< /Size N+1 /Root 1 0 R >>
 startxref
 byte_offset_of_xref_start
 %%EOF
